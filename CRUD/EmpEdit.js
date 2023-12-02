@@ -29,7 +29,7 @@ function EmpEdit() {
         
         })
         .catch((e)=>{console.log(e.message)})
-    })
+    },[])
 
     const handleClick = (e)=>{
 
