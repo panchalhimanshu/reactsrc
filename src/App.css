@@ -1,0 +1,111 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Form
+{
+  height: 100%;
+  width: 100%;
+  background:rgb(87, 0, 154);
+  padding: 15px 0px;
+
+}
+.title-btn
+{
+  width: 94%;
+  margin: 0 auto;
+}
+.Form input
+{
+  width: 85%;
+  height: 60px;
+  font-size: 25px;
+  overflow: 0;
+  border: 0;
+  border-bottom: 2px solid goldenrod;
+  background: rgb(87, 0, 154);
+color: goldenrod;
+padding: 28px 0;
+}
+
+.Form button
+{
+  height: 60px;
+  width: 15%;
+  font-size: 25px;
+  border: 0;
+  background: rgb(87, 0, 154);
+color: goldenrod;
+}
+span
+{
+  display: inline-block;
+  width: 80%;
+}
+.print-array
+{
+  display: flex;
+  width: 100%;
+  background: rgb(87, 0, 154);
+  color: goldenrod;
+  padding: 15px;
+}
+.content
+{
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 25px;
+
+}
+.content input
+{
+  width: 90%;
+  height: 40px;
+  font-size: 25px;
+  background: rgb(87, 0, 154);
+  border: 0;
+  color: goldenrod;
+  border-bottom: 2px solid goldenrod;
+
+}
+
+.content .delete
+{
+  width: 10%;
+  font-size: 25px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.save
+{
+  width: 10%;
+  font-size: 25px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 0px;
+  text-align: center;
+}
+.edit
+{
+  width: 10%;
+  font-size: 25px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-left: 10px;
+}
+input:focus
+{
+  outline: none;
+}
+
+
+

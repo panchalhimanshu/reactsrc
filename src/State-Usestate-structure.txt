@@ -1,0 +1,61 @@
+state = class componet mate jj use thase
+
+
+   constructor()
+    {
+     super()
+        this.state = 
+        {
+            count : <img src= {testImg} alt='imgs' height={100} width={100}/>
+        }
+    }
+
+      update = ()=> {
+        
+      this.setState(
+        {
+          count : <img src= {virat} alt='imgs' height={100} width={100}/>
+        }
+      )
+      }
+
+
+
+increment in state /////////////////////////////
+
+
+  // update = ()=> {
+    //   this.setState(
+    //     {
+    //       count : this.state.count+1
+    //     }
+    //   )
+  }
+
+
+
+  // update = ()=> {
+      //    this.setState(()=>
+      //    (
+      //  {count : this.state.count+1 }
+      //    ))
+  }
+
+       // update = ()=> {
+      //    this.setState((p)=>
+      //    (
+      //  {count : p.count +1}
+      //    ))
+       }
+
+
+
+
+       usestate= 
+
+       const [mark , updatemark] = useState(1);
+
+       update = ()=>
+       {
+        updatemark("Updatevalue je pn karvi hoy tee")
+       }
